@@ -1,0 +1,269 @@
+commit 2bfe7bedfc65909d8b37ac8991d43dc7b148230e
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Sun Jun 12 22:43:02 2011 -0400
+
+    Correct: Problem 43
+
+commit 5cc9be9656677db1205805e71dcdabf95c8b37b1
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Sun Jun 12 22:08:42 2011 -0400
+
+    Correct: Problem 42
+
+commit 15dd303f54bc6d3f3036cf5518ef75d1f9cd0843
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Sun Jun 12 21:51:49 2011 -0400
+
+    Correct: Problem 41
+
+commit 9ab1f925e342c347f0528ce98bee71033748078d
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Fri Jun 10 21:47:37 2011 -0400
+
+    Correct: Problem 40
+
+commit a886cf72f31c44e00ab7b4a72fb8c9b6be7322e0
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Thu Jun 9 23:03:59 2011 -0400
+
+    Correct: Problem 39
+
+commit adf5714a5f545da4682e5a11de44e9222ff7dcf9
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Thu Jun 9 22:30:55 2011 -0400
+
+    Correct: Problem 38
+
+commit 80fb623c681a2608a4d71aa670040cefd3eb4b88
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Thu Jun 9 22:17:01 2011 -0400
+
+    Correct: Problem 37
+
+commit 166de0b2a1fecc45b412cc87b3405c97b4a188fb
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Thu Jun 9 22:03:51 2011 -0400
+
+    Correct: Problem 36
+
+commit 10232bb93d0dae0a5873b0e3e8af23c44bf58d7a
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Thu Jun 9 21:39:36 2011 -0400
+
+    Correct: Problem 35
+
+commit c3a018351013b92824b308265e26d8bb90dcdd48
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Thu Jun 9 00:37:27 2011 -0400
+
+    Correct: Problem 34
+
+commit 8356cb0d254a0ef7f58e926fd0b85cf2d54e9e4d
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Thu Jun 9 00:26:50 2011 -0400
+
+    Correct: Problem 33
+
+commit 55b0d771cf206d73b9a6991d8375edc40a70871d
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Wed Jun 8 23:45:17 2011 -0400
+
+    Correct: Problem 32
+
+commit ee683d4e4f70822d65e5b9aff556ba4b97f0198d
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Wed Jun 8 22:08:18 2011 -0400
+
+    Correct: Problem 31
+
+commit 4511a71f8b3e0eaccf2117ecf73743eb4c2bcad6
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Tue Jun 7 22:49:10 2011 -0400
+
+    Correct: Problem 30
+
+commit db1a6d925abdf8ae166cf04b5b65f4dabe847ec9
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Tue Jun 7 22:36:08 2011 -0400
+
+    Correct: Problem 29
+
+commit 53130e431f3920f8876e04f2060e08c9337ed6d0
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Tue Jun 7 22:28:52 2011 -0400
+
+    Correct: Problem 28
+
+commit 6a8d0699d6906832bb9224c440183296de568529
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Tue Jun 7 22:07:56 2011 -0400
+
+    Correct: Problem 27
+
+commit f727f81ba19b3e461a429856afd569ca6fa2f6d2
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Tue Jun 7 21:29:22 2011 -0400
+
+    Correct: Problem 26
+
+commit 9d18433f0fdd81cd9532dc74634a1a2e4d7136a7
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Tue Jun 7 00:06:13 2011 -0400
+
+    Correct: Problem 24
+
+commit 57df07d0c698a9609f762928514b15285a03202f
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Mon Jun 6 23:53:26 2011 -0400
+
+    Correct: Problem 25
+
+commit eeda711e197655905f9e576bc6b5accedf9b0d59
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Mon Jun 6 22:09:54 2011 -0400
+
+    Correct: Problem 23
+
+commit f107a93516c018d7cc668dd3b71f54f70c078b25
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Mon Jun 6 20:27:49 2011 -0400
+
+    Correct: Problem 22
+
+commit bfe925b63af05cdaa182fa0457ff1d07ca225ec8
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Mon Jun 6 20:08:17 2011 -0400
+
+    problem 22 names file
+
+commit 0ef5525df00b4d80efd683178958b81ea19672f0
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Mon Jun 6 07:18:37 2011 -0400
+
+    Correct: Problem 21
+
+commit d5a1f6b1437558277cb9187a0c924bb5f6176b55
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Sat Jun 4 00:19:16 2011 -0400
+
+    Correct: Problem 20
+
+commit 71102b4307c30d5c811206a049c759aac23bfd40
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Sat Jun 4 00:17:04 2011 -0400
+
+    Correct: Problem 19
+
+commit 6f7f58414117059a7ead38fd601bdbfe19293992
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Fri Jun 3 23:46:55 2011 -0400
+
+    Correct: Problem 18 and 67
+
+commit 6b3e94241f2e832b8d29254ffa2c42163d3ee1ab
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Fri Jun 3 22:41:09 2011 -0400
+
+    Correct: Problem 17
+
+commit 95cf532b298ea66e4cc163093f096bdcc095c45f
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Fri Jun 3 21:25:16 2011 -0400
+
+    two gigs
+
+commit 4d8fc54f958b49ae364ddf76e5d256abe4cff8ed
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Thu Jun 2 23:06:50 2011 -0400
+
+    Correct: Problem 16
+
+commit 130ec3d31b83323a56cd5258b08815898432e73b
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Thu Jun 2 22:58:15 2011 -0400
+
+    Correct: Problem 14 and 15
+
+commit 1d06295055cd0b31bd93e99cf9bfcee02b43e4b8
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Wed Jun 1 22:01:57 2011 -0400
+
+    Correct: Problem 13
+
+commit cd03bcb5c862ada53f0ba26eb4286a0bca926cd7
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Wed Jun 1 21:56:16 2011 -0400
+
+    Correct: Problem 12
+
+commit 20a7fedf5fac7f3d4ead8bda200681a4228a7f69
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Tue May 31 22:22:27 2011 -0400
+
+    Correct: Problem 11
+
+commit 992aa853f23cd040aa7089629161e4b4e6e3dae2
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Tue May 31 22:00:05 2011 -0400
+
+    Correct: Problem 10
+
+commit 632f22a0f19e2dbf78042f9e1b7911962a4af8bd
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Tue May 31 17:22:32 2011 -0400
+
+    Correct: Problem 9
+
+commit 93a7df9cc02cbe7375856af10fa84ed00584b7bf
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Tue May 31 16:56:54 2011 -0400
+
+    Correct: Problem 8
+
+commit 6797902e96e819c1771df5363023362c2520fb9b
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Tue May 31 16:53:52 2011 -0400
+
+    Correct: Problem 7
+
+commit 1ca106c76ad11be7b1bfac67d77ae11427947c14
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Tue May 31 15:39:27 2011 -0400
+
+    Correct: Problem 6
+
+commit ecbd6018483ef571b7d0173055ac0b1ce6833e73
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Tue May 31 15:31:07 2011 -0400
+
+    Correct: Problem 5
+
+commit e2d60a416d7a5d9b501cae47c504fa353629f8de
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Mon May 30 23:57:48 2011 -0400
+
+    Correct: Problem 4
+
+commit 66a4d947ee8fbda8bf729366ea564cac0f02f5af
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Mon May 30 23:46:59 2011 -0400
+
+    Correct: Problem 3
+
+commit c3edadf4e31a99fdd2e91194ecdec8214c188b47
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Mon May 30 22:34:53 2011 -0400
+
+    Correct: Problem 2
+
+commit 447968d68aa11a59e8991f32ddf92d7943028a01
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Mon May 30 22:13:16 2011 -0400
+
+    Correct: Problem 1
+
+commit b775087ba41d491bbe57ca89de3ee35717da7818
+Author: Josh Daghlian <daghlian@gmail.com>
+Date:   Mon May 30 21:59:33 2011 -0400
+
+    hello world
