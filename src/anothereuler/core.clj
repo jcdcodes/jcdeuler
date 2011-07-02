@@ -122,7 +122,7 @@
 (def prime? (memoize prime?))
 (defn primes-below
   [n]
-  (filter prime? (range n)))
+  (filter prime? (range (dec n) 0 -1)))
 (def primes-below (memoize primes-below))
 ;;
 ;; (nth (primes-below 110000) 10000) gives 104743
@@ -1019,5 +1019,30 @@
 
 ;; (take 3 (filter hexagonal? (filter pentagonal? (map triangle (iterate inc 1)))))
 ;; gives 1533776805, which is the answer.
+;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;
+;; Problem 046
+;; Goldbach: first odd composite that isn't a prime plus twice a square.
+;; See primes stuff from Problem 007.
+(def odd-composites
+     (filter (complement prime?) (iterate #(+ 2 %) 1)))
+
+(defn square?
+  [n]
+  (let [sqrt (Math/round (Math/sqrt n))]
+    (= n (* sqrt sqrt))))
+
+(defn is-sum-of-prime-and-twice-square?
+  [n]
+  (loop [primes (primes-below n)]
+    (if (empty? primes)
+      false
+      (if (square? (/ (- n (first primes)) 2))
+	[n (first primes)]
+	(recur (rest primes))))))
+
+;; (take 3 (filter (complement is-sum-of-prime-and-twice-square?) odd-composites))
+;; quickly gives (1 5777 5993). 5777 is the answer.
 ;;;;;;;;;;;;;;
 
