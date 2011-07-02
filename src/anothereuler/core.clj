@@ -960,11 +960,6 @@
 	  (pentagonal
 	   (Math/round (/ (dec (Math/sqrt (inc (* 24 n)))) 6.))))))
 
-
-(defn pentagonals-below
-  [n]
-  (take-while #(> n %) pentagonals))
-
 (defn n-for-pentagonal
   [num]
   (loop [n (dec (Math/round (Math/sqrt (/ num 1.5))))]
@@ -1006,5 +1001,23 @@
 ;; 5482660 is the answer.
 ;;;;;;;;;;;;;;
 
+;;;;;;;;;;;;;;
+;; Problem 045
+;; Second triangle number that's also pentagonal and hexagonal
+;; See (triangle) from Problem 012.
+;; See (pentagonal) and (pentagonal?) from Problem 044.
+(defn hexagonal
+  [n]
+  (* n (dec (* 2 n))))
+
+(defn hexagonal?
+  [num]
+  (and (> num 0)
+       (= num
+	  (hexagonal
+	   (Math/round (/ (inc (Math/sqrt (inc (* 8 num)))) 4))))))
+
+;; (take 3 (filter hexagonal? (filter pentagonal? (map triangle (iterate inc 1)))))
+;; gives 1533776805, which is the answer.
 ;;;;;;;;;;;;;;
 
