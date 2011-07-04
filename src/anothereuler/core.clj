@@ -1084,4 +1084,16 @@
 ;; gives 23875198739992577, whose last ten digits are 8739992577, which is the answer.
 ;;;;;;;;;;;;;;
 
+;;;;;;;;;;;;;;
+;; Problem 048
+;; Last ten digits of 1**1 + 2**2 + ... + 1000**1000
+
+(defn pow
+  [base exponent]
+  (nth (iterate #(* base %) 1) exponent))
+
+(reduce + (map #(pow % %) (range 1 1001)))
+;; gives an exceptionally long number whose last
+;; ten digits are 9110846700, which is the answer
+;;;;;;;;;;;;;;
 
