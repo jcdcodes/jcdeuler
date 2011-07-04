@@ -120,9 +120,12 @@
 		   false
 		   (recur (+ 2 i) imax))))))
 (def prime? (memoize prime?))
+
 (defn primes-below
   [n]
-  (filter prime? (range (dec n) 0 -1)))
+  ;;(filter prime? (range (dec n) 0 -1)))
+  (filter prime? (range n)))
+
 (def primes-below (memoize primes-below))
 ;;
 ;; (nth (primes-below 110000) 10000) gives 104743
@@ -1045,4 +1048,40 @@
 ;; (take 3 (filter (complement is-sum-of-prime-and-twice-square?) odd-composites))
 ;; quickly gives (1 5777 5993). 5777 is the answer.
 ;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;
+;; Problem 047
+;; More prime factors stuff.  Redefining this from above:
+(defn prime-factorization-of
+  [n]
+  (if (< n 2) []
+  (let [primes (primes-below (inc (/ n 2)))]
+    (loop [remainder n remaining-primes primes factorization []]
+      (if (empty? remaining-primes)
+	(if (empty? factorization) [n] factorization)
+	(if (zero? (mod remainder (first remaining-primes)))
+	  (recur (/ remainder (first remaining-primes))
+		 remaining-primes
+		 (conj factorization (first remaining-primes)))
+	  (recur remainder
+		 (rest remaining-primes)
+		 factorization)))))))
+
+;;(map #(into [] [(reduce * %) (count (distinct %))]) (map prime-factorization-of (range 1000)))
+;; gives a list of [n (count (distinct (prime-factorization-of n)))]
+;; so we filter by count and look for runs of n instances of n...
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; intermission
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;
+;; Problem 097
+;; last ten digits of 28433 * 2**7830451 + 1
+;; (inc (* 28433 (nth (iterate #(let [n (* 2 %)] (mod n 1000000000000)) 1) 7830457)))
+;; gives 23875198739992577, whose last ten digits are 8739992577, which is the answer.
+;;;;;;;;;;;;;;
+
 
