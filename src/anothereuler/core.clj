@@ -1097,3 +1097,14 @@
 ;; ten digits are 9110846700, which is the answer
 ;;;;;;;;;;;;;;
 
+;;;;;;;;;;;;;;
+;; Problem 056
+;; maximal digital sum of a**b for a,b < 100
+;; See pow from Problem 048, above.
+(defn digital-sum
+  [n]
+  (reduce + (map #(- (int %) (int '\0)) (str n))))
+
+(apply max (for [a (range 99 0 -1) b (range 99 0 -1)] (digital-sum (pow a b))))
+;; very quickly gives 972, which is the answer.
+;;;;;;;;;;;;;;
