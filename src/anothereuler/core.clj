@@ -1125,7 +1125,13 @@
 ;;;;;;;;;;;;;;
 
 ;;;;;;;;;;;;;;
+;; Problem 053
+;; nCr values greater than 1000000
+;; (See factorial from Problem 015.)
+(defn ncr
+  [n r]
+  (/ (factorial n) (* (factorial r) (factorial (- n r)))))
 
-
-
-
+(count (filter #(> % 1000000) (for [n (range 101) r (range n)] (ncr n r))))
+;; gives 4075, which is the answer.
+;;;;;;;;;;;;;;
