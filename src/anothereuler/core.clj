@@ -1135,3 +1135,24 @@
 (count (filter #(> % 1000000) (for [n (range 101) r (range n)] (ncr n r))))
 ;; gives 4075, which is the answer.
 ;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;
+;; Problem 055
+;; Counting Lychrel numbers below 10000
+;; (See palindrome? from Problem 004.)
+(defn reverse-digits
+  [n]
+  (BigInteger. (apply str (reverse (str n)))))
+
+(defn lychrel
+  [n]
+  (loop [i 1 m (+ n (reverse-digits n))]
+    (if (palindrome? m) false
+	(if (> i 100) true
+	    (recur (inc i) (+ m (reverse-digits m)))))))
+
+(count (filter lychrel (range 1 10000)))
+;; gives 249, which is the answer.
+;;;;;;;;;;;;;;
+
+
