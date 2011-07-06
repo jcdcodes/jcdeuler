@@ -1108,3 +1108,24 @@
 (apply max (for [a (range 99 0 -1) b (range 99 0 -1)] (digital-sum (pow a b))))
 ;; very quickly gives 972, which is the answer.
 ;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;
+;; Problem 052
+;; Same digits in multiples.
+(defn sorted-digits
+  [n]
+  (sort (str n)))
+  
+(defn same-digits
+  [& nums]
+  (apply = (map sorted-digits nums)))
+
+(filter #(same-digits % (* 2 %) (* 3 %) (* 4 %) (* 5 %) (* 6 %)) (range 10000000))
+;; gives (0 142857 1428570 1429857); so 142857 is the right answer.
+;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;
+
+
+
+
