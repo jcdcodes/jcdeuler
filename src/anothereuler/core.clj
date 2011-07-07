@@ -1155,4 +1155,12 @@
 ;; gives 249, which is the answer.
 ;;;;;;;;;;;;;;
 
-
+;;;;;;;;;;;;;;
+;; Problem 079
+;; Minimal secret passcode from 3-letter substrings
+(def login-words (sort (map read-string (.split (slurp "keylog.txt") "\n"))))
+;;
+;; I ended up doing it by hand on paper: Figure out which digits have
+;; to follow and precede which other digits, then sort them that way.
+;; 73162890 is the answer.
+;;;;;;;;;;;;;;
