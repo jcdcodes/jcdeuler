@@ -1164,3 +1164,22 @@
 ;; to follow and precede which other digits, then sort them that way.
 ;; 73162890 is the answer.
 ;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;
+;; Problem 050
+;; Prime under a million that's the sum of the most consecutive primes.
+(defn first-prime-sum-sequence
+  [seq-length max-n remaining-primes]
+  (if (or (empty? remaining-primes)
+          (> (reduce + (take seq-length remaining-primes)) max-n))
+    [0 0 []]
+    (if (prime? (reduce + (take seq-length remaining-primes)))
+      (let [the-consecutive-primes (take seq-length remaining-primes)
+            the-sum (reduce + the-consecutive-primes)]
+        [the-sum seq-length the-consecutive-primes])
+      (recur seq-length max-n (rest remaining-primes)))))
+(argmax second (map #(first-prime-sum-sequence % 1000000 (primes-below 100000)) (range 2 1000)))
+;; returns [997651 543 (7 11 13 ...)] in a few seconds.
+;; 997651 is the answer.
+;;;;;;;;;;;;;;
+
